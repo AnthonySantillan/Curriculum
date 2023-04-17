@@ -1,0 +1,422 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.column-right {
+    flex: 1;
+}
+.column-lef {
+    flex: 1;
+}
+.row-1 {
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    height: auto;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.row-1 h1 {
+    font-size: 50px;
+    margin-left: 10%;
+    color: #0a0a0a;
+    font-family: "Inter", sans-serif;
+}
+.row-2 {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    background-color: #d0cece;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-bottom-right-radius: 5px;
+    font-family: "Inter", sans-serif;
+}
+.row-2 li{
+    margin-left: 3%;
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+
+.title-1{
+    background-color: darkcyan;
+    color: white;
+    font-size: 10px;
+}
+.title-2{
+    background-color: #919090;
+    color: white;
+    font-size: 10px;
+}
+h2{
+    margin-left: 10%;
+    font-family: "Inter", sans-serif;
+}
+h3{
+    margin-left: 10%;
+    font-family: "Inter", sans-serif;
+}
+.row-3 {
+    background-color: #d0cece;
+    height: auto;
+    display: flex;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    flex-direction: column;
+    border-bottom-right-radius: 5px;
+}
+.row-3 h3{
+    color: #0a0a0a;
+    margin-left: 10%;
+    margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+}
+.row-3 h5{
+    color: darkcyan;
+    margin-top: 0;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    font-family: "Inter", sans-serif;
+}
+
+.row-3 p{
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Inter", sans-serif;
+}
+.row-4 {
+    background-color: #d0cece;
+    height: auto;
+    display: flex;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    flex-direction: column;
+    border-bottom-right-radius: 5px;
+    font-family: "Inter", sans-serif;
+}
+.row-4 li{
+    margin-left: 3%;
+}
+/* segunda columna */
+.row-5 {
+    background-color: #b7b7b7;
+    height: auto;
+    display: flex;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    flex-direction: column;
+    border-bottom-left-radius: 5px;
+}
+.row-5 h3 {
+    font-size: 20px;
+    margin-left: 10%;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+.row-6 {
+    background-color: #d0cece;
+    height: auto;
+    display: flex;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    flex-direction: column;
+    border-bottom-left-radius: 5px;
+    font-family: "Inter", sans-serif;
+}
+.row-6 li{
+    font-family: "Inter", sans-serif;
+}
+.row-7 {
+    background-color: #d0cece;
+    height: auto;
+    display: flex;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    flex-direction: column;
+    border-bottom-left-radius: 5px;
+}
+.row-7 h3{
+    color: #0a0a0a;
+    margin-left: 10%;
+    margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+}
+.row-7 h5{
+    color: darkcyan;
+    margin-top: 0;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    font-family: "Inter", sans-serif;
+}
+.row-7 p{
+    margin-top: 0;
+    margin-left: 10%;
+    font-family: "Inter", sans-serif;
+}
+.row-8 {
+    background-color: #d0cece;
+    height: auto;
+    display: flex;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    flex-direction: column;
+    border-bottom-left-radius: 5px;
+}
+
+.row-8 li{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 5px;
+    display: block;
+    font-family: "Inter", sans-serif;
+}
+
+.SkillBar {
+    width: 90%;
+    height: 20px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+#Skill-HTML {
+    width: 100%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 20px;
+    position: absolute;
+    background-color: #ea8564;
+}
+@keyframes Animate-HTML {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 100%}
+}@-webkit-keyframes Animate-HTML {
+     from {
+         width: 10px;
+     }
+     to {
+         width: 100%}
+ }@-moz-keyframes Animate-HTML {
+      from {
+          width: 10px;
+      }
+      to {
+          width: 100%}
+  }@-o-keyframes Animate-HTML {
+       from {
+           width: 10px;
+       }
+       to {
+           width: 100%}
+   }#Skill-CSS {
+        animation: Animate-CSS 5s;
+        -webkit-animation: Animate-CSS 5s;
+        -moz-animation: Animate-CSS 5s;
+        -o-animation: Animate-CSS 5s;
+        width: 80%;
+        height: 20px;
+        position: absolute;
+        background-color: #55a69f;
+    }
+@keyframes Animate-CSS {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 80%}
+}@-webkit-keyframes Animate-CSS {
+     from {
+         width: 10px;
+     }
+     to {
+         width: 80%}
+ }@-moz-keyframes Animate-CSS {
+      from {
+          width: 10px;
+      }
+      to {
+          width: 80%}
+  }@-o-keyframes Animate-CSS {
+       from {
+           width: 10px;
+       }
+       to {
+           width: 80%}
+   }#Skill-Laravel {
+        animation: Animate-Laravel 5s;
+        -webkit-animation: Animate-Laravel 5s;
+        -moz-animation: Animate-Laravel 5s;
+        -o-animation: Animate-Laravel 5s;
+        width: 70%;
+        height: 20px;
+        position: absolute;
+        background-color: #99856d;
+    }
+@keyframes Animate-Laravel {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 70%}
+}@-webkit-keyframes Animate-Laravel {
+     from {
+         width: 10px;
+     }
+     to {
+         width: 70%}
+ }@-moz-keyframes Animate-Laravel {
+      from {
+          width: 10px;
+      }
+      to {
+          width: 70%}
+  }@-o-keyframes Animate-Laravel {
+       from {
+           width: 10px;
+       }
+       to {
+           width: 70%}
+   }#Skill-JS {
+        animation: Animate-JS 4s;
+        -webkit-animation: Animate-JS 4s;
+        -moz-animation: Animate-JS 4s;
+        -o-animation: Animate-JS 4s;
+        width: 80%;
+        height: 20px;
+        position: absolute;
+        background-color: #c44e45;
+    }
+@keyframes Animate-JS {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 80%}
+}@-webkit-keyframes Animate-JS {
+     from {
+         width: 10px;
+     }
+     to {
+         width: 80%}
+ }@-moz-keyframes Animate-JS {
+      from {
+          width: 10px;
+      }
+      to {
+          width: 50%}
+  }@-o-keyframes Animate-JS {
+       from {
+           width: 10px;
+       }
+       to {
+           width: 80%}
+   }
+
+#Skill-Angular {
+    animation: Animate-Angular 4s;
+    -webkit-animation: Animate-Angular 4s;
+    -moz-animation: Animate-Angular 4s;
+    -o-animation: Animate-Angular 4s;
+    width: 70%;
+    height: 20px;
+    position: absolute;
+    background-color: #8e930c;
+}
+@keyframes Animate-Angular {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 70%}
+}@-webkit-keyframes Animate-Angular {
+     from {
+         width: 10px;
+     }
+     to {
+         width: 70%}
+ }@-moz-keyframes Animate-Angular {
+      from {
+          width: 10px;
+      }
+      to {
+          width: 70%}
+  }@-o-keyframes Animate-Angular {
+       from {
+           width: 10px;
+       }
+       to {
+           width: 70%}
+   }#Skill-PHP {
+        animation: Animate-PHP 4s;
+        -webkit-animation: Animate-PHP 4s;
+        -moz-animation: Animate-PHP 4s;
+        -o-animation: Animate-PHP 4s;
+        width: 80%;
+        height: 20px;
+        position: absolute;
+        background-color: #5A69A6;
+    }
+@keyframes Animate-PHP {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 80%}
+}@-webkit-keyframes Animate-PHP {
+     from {
+         width: 10px;
+     }
+     to {
+         width: 80%}
+ }@-moz-keyframes Animate-PHP {
+      from {
+          width: 10px;
+      }
+      to {
+          width: 80%}
+  }@-o-keyframes Animate-PHP {
+       from {
+           width: 10px;
+       }
+       to {
+           width: 80%}
+   }
+.Skill-Area {
+    z-index: 1;
+    float: left;
+    position: absolute;
+    margin-top: 2px;
+    text-shadow: none;
+    color: #0a0a0a;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 14px;
+    margin-left: 30px;
+}
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 15px;
+    float: right;
+    text-shadow: none;
+    color: #0a0a0a;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+}

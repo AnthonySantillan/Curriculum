@@ -1,0 +1,33 @@
+@media print {
+    .row-2 li{
+        margin-left: 0;
+        list-style: none;
+    }
+    .row-3 h3{
+        color: #0a0a0a;
+        margin-left: 10%;
+        margin-bottom: 0;
+        font-family: "Inter", sans-serif;
+    }
+    .row-3 h5{
+        color: darkcyan;
+        margin-top: 0;
+        margin-bottom: 2%;
+        margin-left: 10%;
+        font-family: "Inter", sans-serif;
+    }
+    .row-3 p{
+        margin-top: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: "Inter", sans-serif;
+    }
+    .row-4 li{
+        margin-left: 0;
+    }
+    .row-1, .row-2, .row-3,
+    .row-4, .row-5, .row-6,
+    .row-7, .row-8{
+        margin-top: 10px;
+    }
+}
