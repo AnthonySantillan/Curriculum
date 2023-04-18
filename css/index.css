@@ -421,3 +421,8 @@ h3{
     font-family: Lato-Regular, sans-serif;
     font-size: 18px;
 }
+@media (max-width: 800px) {
+    .container{
+        display: block;
+    }
+}
