@@ -37,4 +37,7 @@
     .row-7 h3, p{
         margin-right: 10%;
     }
+    .container{
+        display: flex;
+    }
 }
