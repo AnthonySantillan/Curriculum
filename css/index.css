@@ -170,18 +170,12 @@ h3{
     background-color: #d0cece;
     height: auto;
     display: flex;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
     margin: 5px;
     flex-direction: column;
     border-bottom-left-radius: 5px;
 }
 
 .row-8 li{
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
     margin: 5px;
     display: block;
     font-family: "Inter", sans-serif;
